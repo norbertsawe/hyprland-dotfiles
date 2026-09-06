@@ -1,7 +1,7 @@
-# Exclude entire directory by default
-*
+# Ignore everything by default
+/*
 
-# Whitelist essential Hyprland & terminal configuration folders
+# Explicitly allow root-level dotfile directories
 !/hypr/
 !/waybar/
 !/fuzzel/
@@ -19,12 +19,12 @@
 !/fontconfig/
 !/micro/
 
-# Include configuration files
+# Root files
 !.gitignore
 !gtkrc
 !gtkrc-2.0
 
-# Exclude temporary and cache files inside whitelisted dirs
+# Exclude unwanted binaries or temp files inside allowed dirs
 *.log
 *.tmp
 *.sqlite*
