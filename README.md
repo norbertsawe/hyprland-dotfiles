@@ -64,23 +64,4 @@ ln -s ~/.config/hypr-dots/nvim ~/.config/nvim
 
 3. **Reload Hyprland:**
 Press `SUPER + SHIFT + R` or execute `hyprctl reload` in your terminal.
-EOF
 
-```
-
----
-
-### Step 2: Push the README to GitHub
-
-Now un-ignore the `README.md` file in `.gitignore` if necessary, stage it, and push:
-
-```zsh
-# Ensure README.md isn't blocked by .gitignore rules
-echo "!README.md" >> .gitignore
-
-# Stage, commit, and push
-git add README.md .gitignore
-git commit -m "docs: add repository overview README"
-git push origin main
-
-```
