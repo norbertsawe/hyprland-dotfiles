@@ -1,0 +1,30 @@
+# Exclude entire directory by default
+*
+
+# Whitelist essential Hyprland & terminal configuration folders
+!/hypr/
+!/waybar/
+!/fuzzel/
+!/ghostty/
+!/kitty/
+!/nvim/
+!/rofi/
+!/gtk-3.0/
+!/gtk-4.0/
+!/qt5ct/
+!/qt6ct/
+!/Kvantum/
+!/btop/
+!/htop/
+!/fontconfig/
+!/micro/
+
+# Include configuration files
+!.gitignore
+!gtkrc
+!gtkrc-2.0
+
+# Exclude temporary and cache files inside whitelisted dirs
+*.log
+*.tmp
+*.sqlite*
